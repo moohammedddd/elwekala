@@ -1,0 +1,88 @@
+
+:root {
+    --lol-padding: 30px;
+    --main-transition: 0.3s;
+    --main-color: #2196f3;
+    
+  }
+  
+
+.article {
+    padding-top: var(--lol-padding);
+    padding-bottom: var(--lol-padding);
+    position: relative;
+    margin: auto;
+  }
+  .article .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr)); 
+    gap: 10px;
+  }
+  .article .one {
+    background-color: white;
+    box-shadow: 0px 2px 15px rgb(0 0 0 /10%);
+    margin:auto;
+    transition: transform var(--main-transition);
+    min-height:50px;
+  }
+  .article .one:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 15px rgb(0 0 0 /30%);
+  }
+  .article .container img {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+  }
+  .article .container .one .texxt {
+    padding: 16px;
+    border-bottom: 1px solid #e6e6e7;
+    
+  }
+  .article p {
+    padding: 5px;
+
+    
+  }
+  .article .container h3 {
+    padding-bottom: 12px;
+  }
+  .article .container .one .info {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .article .container .one .info button,
+  .article .container .one .info a { /* Target both button and Link elements */
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: var(--main-color);
+      background-color: rgba(205, 211, 207, 0.831);
+      padding: 5px;
+      transition: var(--main-transition);
+  }
+  
+  .article .container .one .info button:hover,
+  .article .container .one .info a:hover { /* Apply hover effect to both */
+      letter-spacing: 2px;
+  }
+  
+  .article .container .texxt h3{
+    text-shadow: 2px 2px 4px rgba(53, 79, 4, 0.735);
+    text-align: center;
+    transition: 0.5s;
+  }
+  .article .container .texxt h3:hover{
+
+    letter-spacing: 2px;
+  }
+  .show-more{
+    text-align: center;
+  
+  }
+
+
+ 

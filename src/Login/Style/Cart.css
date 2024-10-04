@@ -1,0 +1,160 @@
+
+.table-cart {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+  }
+
+  .table img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .table-cart {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+      text-align: center;
+    }
+  
+    .table-cart thead {
+      display: none; /* إخفاء رؤوس الجدول في الشاشات الصغيرة */
+    }
+
+    .table-cart tbody {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* محاذاة الجسم في الوسط */
+    }
+
+
+.table-cart tbody tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    width: 350px;
+  }
+  .table-cart tbody tr td {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    padding: 30px 0;
+  }
+ 
+  .table-cart tbody tr td img {
+    width: 350px !important;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+}
+span{
+    color: #2196f3;
+}
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantity-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .quantity-btn:disabled {
+    background-color: #f8f8f8;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+  .quantity-input-field {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 32px;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    margin: 0 5px;
+  }
+  
+  .quantity-input-field:focus {
+    border-color: #4caf50;
+  }
+  
+  .pay-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 20px auto; /* Center the button */
+    display: block;    /* Make the button a block element */
+    text-align: center;
+}
+
+.pay-button:hover {
+    background-color: #45a049;
+}
+
+.mony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .cc-img {
+    margin: auto; /* Center the image with some margin */
+    width:300px;
+    height: 100px;
+  }
+
+    
+  
+  
+  .panel {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit the maximum width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .panel-heading {
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  

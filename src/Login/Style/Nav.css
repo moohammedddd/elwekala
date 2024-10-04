@@ -1,0 +1,71 @@
+
+:root {
+    --main-transition: 0.3s;
+    --main-color:color: #2196f3;
+}
+.f-navbar{
+    font-weight: bold; /* Example: make the text bold */
+    color: #2196f3; /* Example: change text color */
+    background-color: rgba(205, 211, 207);
+  }
+  .l-navbar {
+    background-color: rgb(185, 194, 188, 0.831);
+  }
+.contaoner{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* .head{
+    margin-left:200px;
+} */
+ 
+
+ .main-title {
+    padding: 10px 50px;
+    font-size: 28px;
+    color: black;
+     font-size: 40px;
+    z-index: 1;
+    transition: var(--main-transition);
+    text-shadow: 2px 2px 4px rgba(53, 79, 4, 0.735);
+    
+   
+
+  }
+ .main-title:hover{
+    letter-spacing: 4px;
+ }
+ 
+ .navbar ul .nav-item .nav-link{
+    color: black;
+    text-shadow: 2px 2px 4px rgba(53, 79, 4, 0.735);
+    transition: var(--main-transition);
+    font-size: 22px;
+
+ 
+
+ }
+ .navbar ul .nav-item .nav-link:hover{
+    letter-spacing: 2px;
+ }
+.logo{
+    width: 80px;
+    height: 80px;
+
+}
+ button.categ{
+    font-size: 20px !important;
+    color: black !important;
+    border: none !important;
+    text-shadow: 2px 2px 4px rgba(53, 79, 4, 0.735);
+    transition: var(--main-transition);
+    background-color: rgba(205, 211, 207, 0.831) !important;
+}
+ button.categ:hover{
+    letter-spacing: 2px;
+}
+
+.show{
+    padding: 25px;
+}
